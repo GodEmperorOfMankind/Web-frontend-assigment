@@ -1,0 +1,44 @@
+.card{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    min-height: 200px;
+    margin-top: 40px;
+    padding: 20px;
+    transition: .5s;    
+    border: 1px solid rgb(128, 123, 123);
+    -webkit-box-shadow: 20px 17px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 20px 17px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 20px 17px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.card img{
+    width: 450px;
+    height: 100%;
+}
+
+
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transform-origin: center;
+    transition: .5s;
+    background-color: rgb(220, 220, 220);
+}
+
+.card .card__info{
+    margin-left: 20px;
+    
+}
+
+
+.card .card__info h4{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.card .card__info p{
+    margin-top: 10px;
+}
+
